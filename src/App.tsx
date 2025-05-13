@@ -5,10 +5,10 @@ function App() {
   return (
     <div className='container'>
       <PomodoroTimer
-        pomodoroTime={10}
-        shortRestTime={2}
-        longRestTime={5}
-        cycles={4}
+        pomodoroTime={1800}
+        shortRestTime={300}
+        longRestTime={900}
+        cycles={3}
       />
     </div>
   );
